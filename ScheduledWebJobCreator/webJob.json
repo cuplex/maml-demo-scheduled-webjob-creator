@@ -1,0 +1,16 @@
+﻿{
+    "subscriptionId":"[YOUR SUBSCRIPTION ID HERE]",
+    "activeDirectoryTenantId":"[YOUR AAD TENANT ID HERE]",
+    "activeDirectoryClientId":"[YOUR AAD APP CLIENT ID HERE]",
+    "activeDirectoryRedirectUrl":"[YOUR AAD CLIENT APP REDIRECT URL HERE]",
+    "webJobs" : [{
+        "regionName":"North Central US",
+        "webSiteName":"WebSiteWithWebJob42",
+        "filePath":"..\\..\\..\\SomeWebJob\\bin\\debug\\SomeWebJob.exe.zip",
+        "webJobName":"TestingWebJob",
+        "startTime":"2014-05-01T00:00Z",
+        "endTime":"2014-06-01T00:00Z",
+        "jobRecurrenceFrequency":"Hour",
+        "interval":3
+    }]
+}
